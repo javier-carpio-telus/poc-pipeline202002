@@ -16,7 +16,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file java-web-project/pom.xml
     - name: Publish in Github Package repository
-      run: mvn deploy --file java-web-project/pom.xml
+      run: mvn -B -e -Dmaven.wagon.http.pool=false deploy --file java-web-project/pom.xml
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
