@@ -2,17 +2,17 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.telus.poc.web</groupId>
-  <artifactId>poc-pipeline2020</artifactId>
+  <artifactId>poc-pipeline202002</artifactId>
   <packaging>war</packaging>
   <version>0.0.0</version>
   <name>java-web-project Maven Webapp</name>
-  <url>https://maven.pkg.github.com/javier-carpio-telus/poc-pipeline2020</url>
+  <url>https://maven.pkg.github.com/javier-carpio-telus/poc-pipeline202002</url>
 
   <distributionManagement>
     <repository>
       <id>github</id>
       <name>GitHub Package Repository for POC</name>
-      <url>https://maven.pkg.github.com/javier-carpio-telus/poc-pipeline2020</url>
+      <url>https://maven.pkg.github.com/javier-carpio-telus/poc-pipeline202002</url>
     </repository>
   </distributionManagement>
 
