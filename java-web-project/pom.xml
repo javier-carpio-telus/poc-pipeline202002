@@ -4,9 +4,9 @@
   <groupId>com.telus.poc.web</groupId>
   <artifactId>poc-pipeline2020</artifactId>
   <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.0.0</version>
   <name>java-web-project Maven Webapp</name>
-  <url>http://maven.apache.org</url>
+  <url>https://maven.pkg.github.com/javier-carpio-telus/poc-pipeline2020</url>
 
   <distributionManagement>
     <repository>
