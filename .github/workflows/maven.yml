@@ -18,7 +18,7 @@ jobs:
       with:
         servers: '[{"id": "github", "username": "x-access-token", "password": "${GITHUB_TOKEN}"}]'
     - name: Build with Maven
-      run: mvn -B package --file java-web-project/pom.xml -P deploy
+      run: mvn -B package --file java-web-project/pom.xml
     - name: Publish in Github Package repository
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
