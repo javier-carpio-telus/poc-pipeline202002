@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/javier-carpio-telus/poc20200206-pre-commit-hooks
-    rev: v0.1
+    rev: v0.8
     hooks:
     -   id: hello_world
 
