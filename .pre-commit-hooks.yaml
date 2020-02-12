@@ -1,7 +1,7 @@
--   id: pmd_java
+-   id: hello_world
     name: PMD Pre-commit hook
     description: Pre-commit hook using PMD to validate Netcracker code 
-    entry: pre-commit-hook
+    entry: hello_world
     language: python
 
 

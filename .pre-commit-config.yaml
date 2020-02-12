@@ -1,8 +1,8 @@
 repos:
--   repo: https://github.com/javier-carpio-telus/poc-pipeline202002
-    rev: v.0.1.0
+-   repo: https://github.com/javier-carpio-telus/poc20200206-pre-commit-hooks
+    rev: v0.1
     hooks:
-    -   id: pmd_java
+    -   id: hello_world
 
 
 
